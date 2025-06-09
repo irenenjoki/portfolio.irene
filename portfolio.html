@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - Kelly Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: Kelly
+  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Irene</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://github.com/irenenjoki" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/irene.waweru.100/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/irene-waweru-75238a215/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+ <section id="projects">
+    <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <div class="all-items">
+        <!-- Projects -->
+        <!-- Each of the six projects now listed fully -->
+        <script>
+          const projects = [
+            {
+              title: 'Tech Target',
+              subtitle: 'Personal project hosted on GitHub',
+              desc: 'A modern water management product showcase website using HTML, CSS and JavaScript, php, mysql.',
+              image: 'https://github.com/user-attachments/assets/0deeeec8-c374-4740-b2ba-f01de70ef456',
+              url: 'https://irenenjoki.github.io/RWMBS/'
+            },
+            {
+              title: 'Restaurant',
+              subtitle: 'Food Service Website',
+              desc: 'A responsive restaurant website with menu and order sections.',
+              image: 'https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_768/v1/img/recipes/92/64/7/KefiQG6QRMGF2RaVL567_milk-free-egg-free-pancakes_0476.jpg',
+              url: 'https://irenenjoki.github.io/RMWS/'
+            },
+            {
+              title: 'Eleanor Baby Clothing Boutique',
+              subtitle: 'A website for baby clothes',
+              desc: 'A sweet and colorful online store layout for baby clothing items.',
+              image: 'https://sc04.alicdn.com/kf/HTB1Fz7lKf5TBuNjSspmq6yDRVXae.jpg',
+              url: 'https://irenenjoki.github.io/Babyclothes/index.html'
+            },
+            {
+              title: 'Movie Web',
+              subtitle: 'Film discovery and info',
+              desc: 'A visually engaging movie discovery web app.',
+              image: 'https://user-images.githubusercontent.com/85219856/182656095-35f219c4-2c61-486d-8540-3194d5445ceb.png',
+              url: 'https://irenenjoki.github.io/movieweb/'
+            },
+            {
+              title: 'Photography',
+              subtitle: 'A creative portfolio',
+              desc: 'A photography showcase site for personal or client work.',
+              image: 'https://github.com/irenenjoki/photography/assets/85219856/4e7f0bc0-c615-4361-abfc-4110eaa6be08',
+              url: 'https://irenenjoki.github.io/photography/'
+            },
+            {
+              title: 'Jewellery Store',
+              subtitle: 'Online Jewellery Boutique',
+              desc: 'Elegant and classy design for a jewelry e-commerce site.',
+              image: 'https://s.alicdn.com/@sc04/kf/H339f5971e48342c9b8134697e567e49d2.jpg',
+              url: 'https://irenenjoki.github.io/jewellery-store/index.html'
+            }
+          ];
+
+          const container = document.querySelector('.all-items');
+          container.innerHTML = projects.map((project, i) => `
+            <div class="item" style="flex-direction: ${i % 2 !== 0 ? 'row-reverse' : 'row'}">
+              <div class="left">
+                <div class="img">
+                  <img src="${project.image}" alt="${project.title}">
+                </div>
+              </div>
+              <div class="right">
+                <h2 class="project-title">${project.title}</h2>
+                <h3 class="project-sub-title">${project.subtitle}</h3>
+                <p class="project-desc">${project.desc}</p>
+                <div class="buttons">
+                  <a href="${project.url}" class="primary-btn">Know More</a>
+                  <a href="${project.url}" class="primary-btn outline">
+                    <span>Preview</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          `).join('');
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Irene</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+         <a href="https://github.com/irenenjoki" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/irene.waweru.100/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/irene-waweru-75238a215/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://github.com/irenenjoki">Irene</a> 
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
